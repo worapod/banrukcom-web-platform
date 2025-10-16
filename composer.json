@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Banrukcom\\": "classes/" // <--- แนะนำให้ใช้ชื่อ Namespace ที่ชัดเจนกว่า "classes\\"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "google/apiclient": "^2.18.3",
+        "vlucas/phpdotenv": "^5.4" // <--- เพิ่มตัวนี้ถ้าจะใช้ Dotenv\Dotenv
+    }
+}
